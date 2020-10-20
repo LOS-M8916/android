@@ -19,9 +19,4 @@
         <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep"  remote="git" revision="lineage-17.1" />
         <project name="LOS-M8916/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
 
-        <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-17.1" />
-
-        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-17.1" />
-
 </manifest>
